@@ -20,6 +20,14 @@ Note that this is currently a work in progress.  The current purr detection algo
 is quite susceptible to false positives from audio noise.  Below is a log
 of the most recent progress.
 
+### October 3, 2013 
+
+After getting a good recording of a purr and looking at it in a spectrogram it looks like ~21-23 hz is 
+really where the main intensity of the purr audio occurs.  Unfortunately there's still quite a lot of noise
+detecting pulses in the 20hz range.  More work needs to be done to better isolate the microphone from noise.  You
+can also [see the spectrogram of the purr](http://learn.adafruit.com/fft-fun-with-fourier-transforms/cat-purr-detection)
+in this [guide I wrote for Adafruit.com](http://learn.adafruit.com/fft-fun-with-fourier-transforms/overview-1).
+
 ### September 23, 2013
 
 First version of the code uploaded to github.  Based on some recordings of my cat
